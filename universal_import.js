@@ -1,7 +1,7 @@
 async function initAthlete() {
     athlete = document.createElement("img")
     athlete.setAttribute("id", "athleteimage")
-    athlete.setAttribute("src", "https://athletepages.github.io/athletepage.github.io/athlete.png")
+    athlete.setAttribute("src", "./athlete.png")
     athlete.setAttribute("width", (window.innerWidth / 2))
     athlete.setAttribute("height", ((window.innerWidth / 2) / 16) * 9)
     athlete.style.position = "absolute"
